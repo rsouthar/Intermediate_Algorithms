@@ -1,10 +1,10 @@
 function whatIsInAName(collection, source) {
-  // What's in a name?
-  var arr = [];
-  // Only change code below this line
+// This javascript is in ES6
 
-
-  // Only change code above this line
+  let arr = [];
+  const keys = Object.keys(source);
+  arr = collection.filter(obj => keys.every(key => obj.hasOwnProperty(key) && obj[key] === source[key]));
+  console.log(arr);
   return arr;
 }
 
