@@ -16,7 +16,6 @@ function smallestCommons(arr) {
   for ( var i = min; i <= max; i += 1) {
     c = smallCommon(i, c);
   }
-  console.log(c);
   return c;
 }
 
