@@ -6,7 +6,7 @@ function binaryAgent(str) {
   str = str.match(/.{1,8}/g).join(" ");
 
   var newBinary = str.split(" ");
-  
+
   // Declare an array to put the split string in
   var binaryCode = [];
 
